@@ -19,7 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   result = false
   planeteer_calls.each {|n| 
     if n.size > 4
-      result = false
+      result = true
     end
   }
   result
