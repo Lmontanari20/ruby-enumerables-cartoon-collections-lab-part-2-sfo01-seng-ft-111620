@@ -18,7 +18,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   result = false
   planeteer_calls.each {|n| 
-    if n.length > 4
+    if n.size > 4
       result = false
     end
   }
